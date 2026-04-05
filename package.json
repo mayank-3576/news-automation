@@ -1,0 +1,17 @@
+{
+  "name": "news-automation",
+  "version": "1.0.0",
+  "description": "Automated system to fetch daily India current affairs, generate Hinglish social media posts using AI, and save them for publishing.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "keywords": ["news", "openai", "automation", "hinglish", "india"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0",
+    "openai": "^4.47.1"
+  }
+}
